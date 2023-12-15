@@ -4,6 +4,7 @@ import About from './About';
 import FeedbackLoop from './FeedbackLoop';
 import ReactCalculator from './ReactCalculator';
 import ZipCodeCalculator from './ZipCodeCalculator';
+import '../styles/NavBar.css';
 
 interface NavbarProps {
 }
