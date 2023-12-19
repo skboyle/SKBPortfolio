@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/FeedbackLoop.css';
+import '../styles/styles.css';
 
 const FeedbackLoop: React.FC = () => {
   return (
-    <div>
+    <div className="page" id="feedback-loop">
       <h2>Feedback Loop Page</h2>
       <p>This is the Feedback Loop page content.</p>
     </div>

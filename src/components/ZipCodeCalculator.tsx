@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/ZipCodeCalculator.css';
+import '../styles/styles.css';
 
 const ZipCodeCalculator: React.FC = () => {
   return (
-    <div>
+    <div className="page" id="ZipCodeCalculator">
       <h2>Zip Code Calculator Page</h2>
       <p>This is the Zip Code Calculator page content.</p>
     </div>
