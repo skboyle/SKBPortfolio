@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/ReactCalculator.css';
+import '../styles/styles.css';
 
 const ReactCalculator: React.FC = () => {
   return (
-    <div>
+    <div className="page" id="ReactCalculator">
       <h2>React Calculator Page</h2>
       <p>This is the React Calculator page content.</p>
     </div>

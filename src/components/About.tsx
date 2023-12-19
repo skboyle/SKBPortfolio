@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/About.css';
+import '../styles/styles.css';
 
 const About: React.FC = () => {
   return (
-    <div>
+    <div className="page" id="about">
       <h2>About Page</h2>
       <p>This is the About page content.</p>
     </div>

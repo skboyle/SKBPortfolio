@@ -10,23 +10,6 @@ interface NavbarProps {
 }
 
 const NavBar: React.FC<NavbarProps> = () => {
-  const [activeComponent, setActiveComponent] = useState<string>('about');
-
-  const renderComponent = () => {
-    switch (activeComponent) {
-      case 'about':
-        return <About />;
-      case 'feedback-loop':
-        return <FeedbackLoop />;
-      case 'react-calculator':
-        return <ReactCalculator />;
-      case 'zip-code-calculator':
-        return <ZipCodeCalculator />;
-      default:
-        return null;
-    }
-  };
-
   return (
     <div>
       <nav>
