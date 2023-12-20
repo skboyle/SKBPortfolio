@@ -1,11 +1,20 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa'; // Import the Font Awesome icons
+
 import '../styles/styles.css';
 
 const ReactCalculator: React.FC = () => {
   return (
     <div className="page" id="ReactCalculator">
-      <h2>React Calculator Page</h2>
-      <p>This is the React Calculator page content.</p>
+      <h1>React Calculator</h1>
+      <h3>A simple calculator that handles order of operations using React.</h3>
+      <div className="centered-link">
+
+      <a className="gh-link" href="https://github.com/skboyle" target="_blank" rel="noopener noreferrer">
+             <FaGithub  /> {/* GitHub icon */}Github
+      </a>
+      </div>
+      <img src="react-calc.png" alt="react-calc" width="300px"/>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub } from 'react-icons/fa'; // Import the Font Awesome icons
 import '../styles/styles.css';
 
 const ZipCodeCalculator: React.FC = () => {

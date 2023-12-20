@@ -1,12 +1,11 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaFileAlt } from 'react-icons/fa'; // Import the Font Awesome icons
-import '../styles/LinkBar.css';
 
 
 const LinkBar: React.FC = () => {
   return (
     <div>
-      <nav>
+      <footer>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/skboyle0/" target="_blank" rel="noopener noreferrer">
@@ -24,7 +23,7 @@ const LinkBar: React.FC = () => {
             </a>
           </li>
         </ul>
-      </nav>
+      </footer>
     </div>
   );
 };

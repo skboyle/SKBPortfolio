@@ -3,19 +3,115 @@ body {
   background: radial-gradient(circle, rgba(205,178,255,1) 0%, rgba(160,216,255,1) 100%);
 }
 
-.page {
-  width: 100%;
-  height: 100%;
-}
 
-.container {
-    padding: 20px;
+  h1 {
+    color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
   }
-  
-  h2 {
-    color: #333;
+
+  h3 {
+    text-align: left;
+    color: white;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+  }  
+  .page {
+    font-size: 1em;
+    text-align: center;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.5);
+    transition: border-color 0.3s, color 0.3s;
   }
-  
+
+  .centered-link {
+    display: flex;
+    justify-content: center;
+  }
+
   p {
     color: #666;
+  }
+
+  img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px;
+  }
+
+
+  nav {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  footer {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    padding: 0; /* Remove default padding */
+  }
+  
+  li {
+    white-space: nowrap;
+    margin: 10px;
+    padding: 3px;
+    border: 2px solid transparent;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    border-radius: 100px;
+    transition: border-color 0.3s, color 0.3s;
+    outline-style: solid;
+  }
+  
+  a {
+    margin: auto;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  a:hover,
+  a:focus,
+  a:active {
+    color: #fff;
+    border-color: #fff;
+    outline: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    li {
+      margin: 10px 0; 
+    }
+
+    img {
+      width: 300px;
+    }
+
+    h1{
+      width: 300px;
+    }
+
+    h3{
+      width: 300px;
+    }
   }
