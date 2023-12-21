@@ -35,7 +35,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: /home/runner/work/SKBPortfolio/SKBPortfolio/build
+          FOLDER: /home/runner/work/SKBPortfolio/build
 
       - name: List Project Directory
         run: ls -l
