@@ -15,7 +15,7 @@ const ReactCalculator: React.FC = () => {
              <FaGithub  />Github
       </a>
       </div>
-      <img src="react-calc.png" alt="react-calc" width="300px"/>
+      <img src="https://i.imgur.com/bGo78Se.png" alt="react-calc" width="300px"/>
     </div>
   );
 };

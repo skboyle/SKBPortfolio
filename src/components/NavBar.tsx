@@ -1,9 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import About from './About';
-import FeedbackLoop from './FeedbackLoop';
-import ReactCalculator from './ReactCalculator';
-import ZipCodeCalculator from './ZipCodeCalculator';
 import '../styles/styles.css';
 
 interface NavbarProps {
