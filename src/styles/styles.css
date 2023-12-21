@@ -21,6 +21,7 @@ body {
   .page {
     font-size: 1em;
     text-align: center;
+    max-width: 1400px;
     margin: auto;
     color: rgba(255, 255, 255, 0.5);
     transition: border-color 0.3s, color 0.3s;
