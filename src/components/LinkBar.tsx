@@ -18,7 +18,7 @@ const LinkBar: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="https://raw.githubusercontent.com/skboyle/SKBPortfolio/6e939424b7ee49b0f8a4e4e80686d657f99bab69/SKBR2024.pdf" download="Steven_Boyle_Resume_2024.pdf">
+            <a href="https://github.com/skboyle/SKBPortfolio/blob/main/SKBR2024.pdf" download="Steven_Boyle_Resume_2024.pdf">
               <FaFileAlt />
             </a>
           </li>
