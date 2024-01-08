@@ -93,6 +93,10 @@ ul {
   li {
     margin: 10px 0; 
   }
+
+  img {
+    width: 250px;
+  }
 }
 
 a {
