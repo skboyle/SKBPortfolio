@@ -7,7 +7,7 @@ interface NavbarProps {
 
 const NavBar: React.FC<NavbarProps> = () => {
   return (
-    <div>
+    <div className="navbar">
       <nav>
       <ul>
         <li><Link to="/about">About</Link></li>

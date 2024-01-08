@@ -1,25 +1,16 @@
-@keyframes rotateHue {
-  0% { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(360deg); }
-}
-
 body {
   background: rgb(205,178,255);
   background: radial-gradient(circle, rgba(205,178,255,1) 20%, rgba(160,216,255,1) 100%);
 }
 
+/* Centered link */
 .centered-link {
   display: flex;
   justify-content: center;
 }
 
-footer {
-  background-color: transparent;
-  padding: 10px;
-  text-align: center;
-}
-
-h1 {
+/* Headings */
+h1, h3 {
   color: white;
   margin: auto;
   padding: 10px;
@@ -27,13 +18,10 @@ h1 {
 }
 
 h3 {
-  color: white;
-  margin: auto;
-  padding: 10px;
   text-align: left;
-  width: 600px;
 }
 
+/* Image */
 .img {
   border-radius: 10px;
   box-shadow: 1px 1px 10px;
@@ -41,6 +29,7 @@ h3 {
   width: 300px;
 }
 
+/* List item */
 li {
   border: 2px solid transparent;
   border-radius: 100px;
@@ -53,45 +42,42 @@ li {
   white-space: nowrap;
 }
 
-.nav {
-  background-color: transparent;
-  padding: 0px;
-  padding: 10px;
-  text-align: center;
-}
-
+/* Page */
 .page {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1em;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1000px;
   text-align: center;
   transition: border-color 0.3s, color 0.3s;
 }
 
+/* Paragraph */
 p {
   color: #666;
 }
 
+/* Unordered list */
 ul {
   display: flex; /* Use flexbox */
   flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 4px;
   justify-content: center; /* Center items horizontally */
   list-style: none;
-  padding: 0; /* Remove default padding */
 }
 
+/* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
-  h1{
+  h1 {
     width: 300px;
   }
 
-  h3{
+  h3 {
     width: 300px;
   }
 
   li {
-    margin: 10px 0; 
+    margin: 10px; 
   }
 
   img {
@@ -99,20 +85,54 @@ ul {
   }
 }
 
+/* Anchor */
 a {
   border-radius: 100px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 1em;
   font-weight: bold;
-  margin: auto;
   padding: 10px 10px;
   text-decoration: none;
 }
 
-a:active,
-a:focus,
-a:hover {
+/* Hover, Focus, Active States for Anchor */
+a:active, a:focus, a:hover {
   border-color: #fff;
   color: #fff;
   outline: none;
+}
+
+/* Footer */
+footer {
+  bottom: 1em;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0; /* Reset margin */
+  padding: 0;
+}
+
+footer li {
+  margin: 10px;
+}
+
+/* Navigation */
+nav {
+  top: 1em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0; /* Reset margin */
+  padding: 0;
+}
+
+nav li {
+  margin: 10px;
 }

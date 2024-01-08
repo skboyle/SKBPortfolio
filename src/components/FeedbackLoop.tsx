@@ -14,10 +14,10 @@ const FeedbackLoop: React.FC = () => {
              <FaGithub  /> Github
       </a>
       </div>
-      <img src="https://i.imgur.com/jEG1vzh.jpg" alt="First" width="500px"/>
-      <img src="https://i.imgur.com/3cn0kbB.jpg" alt="Second" width="500px"/>
-      <img src="https://i.imgur.com/VtEp5eX.jpg" alt="Third" width="500px"/>
-      <img src="https://i.imgur.com/soZy4vL.png" alt="Fourth" width="500px"/>
+      <img src="https://i.imgur.com/jEG1vzh.jpg" alt="First" width="400px"/>
+      <img src="https://i.imgur.com/3cn0kbB.jpg" alt="Second" width="400px"/>
+      <img src="https://i.imgur.com/VtEp5eX.jpg" alt="Third" width="400px"/>
+      <img src="https://i.imgur.com/soZy4vL.png" alt="Fourth" width="400px"/>
     </div>
   );
 };
