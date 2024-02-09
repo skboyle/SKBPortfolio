@@ -1,6 +1,6 @@
 body {
-  background: rgb(205,178,255);
-  background: radial-gradient(circle, rgba(205,178,255,1) 20%, rgba(160,216,255,1) 100%);
+  background: rgb(227, 238, 255);
+  background: radial-gradient(circle, rgb(236, 238, 255) 20%, rgb(231, 245, 255) 100%);
 }
 
 /* Centered link */
@@ -11,7 +11,7 @@ body {
 
 /* Headings */
 h1, h3 {
-  color: white;
+  color: rgb(24, 24, 24);
   margin: auto;
   padding: 10px;
   width: 600px;
@@ -31,12 +31,10 @@ h3 {
 
 /* List item */
 li {
-  border: 2px solid transparent;
-  border-radius: 100px;
-  color: rgba(255, 255, 255, 0.5);
+  size: 1em;
+  color: rgb(24, 24, 24);
   font-weight: bold;
   margin: 10px;
-  outline-style: solid;
   padding: 3px;
   transition: border-color 0.3s, color 0.3s;
   white-space: nowrap;
@@ -44,7 +42,7 @@ li {
 
 /* Page */
 .page {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(24, 24, 24);
   font-size: 1em;
   margin: auto;
   max-width: 1000px;
@@ -54,7 +52,7 @@ li {
 
 /* Paragraph */
 p {
-  color: #666;
+  color: rgb(24, 24, 24);
 }
 
 /* Unordered list */
@@ -87,8 +85,7 @@ ul {
 
 /* Anchor */
 a {
-  border-radius: 100px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(24, 24, 24);
   font-size: 1em;
   font-weight: bold;
   padding: 10px 10px;
@@ -97,8 +94,7 @@ a {
 
 /* Hover, Focus, Active States for Anchor */
 a:active, a:focus, a:hover {
-  border-color: #fff;
-  color: #fff;
+  color: rgba(24, 24, 24, 0.5);
   outline: none;
 }
 
