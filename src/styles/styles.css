@@ -1,134 +1,14 @@
-body {
-  background: rgb(227, 238, 255);
-  background: radial-gradient(circle, rgb(236, 238, 255) 20%, rgb(231, 245, 255) 100%);
-}
-
-/* Centered link */
-.centered-link {
-  display: flex;
-  justify-content: center;
-}
-
-/* Headings */
-h1, h3 {
-  color: rgb(24, 24, 24);
-  margin: auto;
-  padding: 10px;
-  width: 600px;
-}
-
-h3 {
-  text-align: left;
-}
-
-/* Image */
-.img {
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px;
-  margin: 10px;
-  width: 300px;
-}
-
-/* List item */
-li {
-  size: 1em;
-  color: rgb(24, 24, 24);
-  font-weight: bold;
-  margin: 10px;
-  padding: 3px;
-  transition: border-color 0.3s, color 0.3s;
-  white-space: nowrap;
-}
 
 /* Page */
 .page {
-  color: rgb(24, 24, 24);
-  font-size: 1em;
-  margin: auto;
-  max-width: 1000px;
-  text-align: center;
-  transition: border-color 0.3s, color 0.3s;
+  padding: 1em;
 }
 
-/* Paragraph */
-p {
-  color: rgb(24, 24, 24);
-}
-
-/* Unordered list */
-ul {
-  display: flex; /* Use flexbox */
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  gap: 4px;
-  justify-content: center; /* Center items horizontally */
-  list-style: none;
+.icon-container {
+  padding: 1em;
 }
 
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px) {
-  h1 {
-    width: 300px;
-  }
 
-  h3 {
-    width: 300px;
-  }
-
-  li {
-    margin: 10px; 
-  }
-
-  img {
-    width: 250px;
-  }
-}
-
-/* Anchor */
-a {
-  color: rgb(24, 24, 24);
-  font-size: 1em;
-  font-weight: bold;
-  padding: 10px 10px;
-  text-decoration: none;
-}
-
-/* Hover, Focus, Active States for Anchor */
-a:active, a:focus, a:hover {
-  color: rgba(24, 24, 24, 0.5);
-  outline: none;
-}
-
-/* Footer */
-footer {
-  bottom: 1em;
-  width: 100%;
-}
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0; /* Reset margin */
-  padding: 0;
-}
-
-footer li {
-  margin: 10px;
-}
-
-/* Navigation */
-nav {
-  top: 1em;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0; /* Reset margin */
-  padding: 0;
-}
-
-nav li {
-  margin: 10px;
 }
