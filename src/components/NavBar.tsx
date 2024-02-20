@@ -15,10 +15,10 @@ const NavBar: React.FC<NavbarProps> = () => {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                  <a href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">About</a>
-                  <a href="/feedback-loop" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Feedback Loop</a>
-                  <a href="/react-calculator" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">React Calc</a>
-                  <a href="/zip-code-calculator" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Zipcode Calc</a>
+                  <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/about">About</Link></div>
+                  <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/feedback-loop">Feedback Loop</Link></div>
+                  <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/react-calculator">React Calc</Link></div>
+                  <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/zip-code-calculator">Zipcode Calc</Link></div>
                 </div>
               </div>
             </div>
@@ -29,10 +29,10 @@ const NavBar: React.FC<NavbarProps> = () => {
         <div className="sm:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
             {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-            <a href="/about" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">About</a>
-            <a href="/feedback-loop" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Feedback Loop</a>
-            <a href="/react-calculator" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">React Calc</a>
-            <a href="/zip-code-calculator" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Zipcode Calc</a>
+            <div className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/about">About</Link></div>
+            <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/feedback-loop">Feedback Loop</Link></div>
+            <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/react-calculator">React Calc</Link></div>
+            <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/zip-code-calculator">Zipcode Calc</Link></div>
           </div>
         </div>
       </nav>
