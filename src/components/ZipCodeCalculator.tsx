@@ -7,8 +7,8 @@ const ZipCodeCalculator: React.FC = () => {
     <section className="mx-auto my-10 flex max-w-xl flex-col rounded-3xl border p-4 sm:px-16 sm:py-16 lg:max-w-screen-lg lg:flex-row">
     <div className="lg:w-1/2 lg:pr-8">
       <div className="mt-4">
-        <h2 className="text-3xl font-medium text-gray-700">Zip Code Calculator</h2>
-        <p className="mt-6 text-gray-600">Enter 2 ZipCodes to calculate the distance between two points using latitude and longitude.</p>
+        <h2 className="text-3xl font-medium text-gray-700">Zipcode Calculator</h2>
+        <p className="mt-6 text-gray-600">Enter zipcodes to calculate the distance between two points using latitude and longitude.</p>
         <br/>
         <h3>STACK: Ruby on Rails, React.js, Postgresql, CSS</h3>
         <br/>

@@ -8,7 +8,7 @@ const FeedbackLoop: React.FC = () => {
       <div className="lg:w-1/2 lg:pr-8">
         <div className="mt-4">
           <h2 className="text-3xl font-medium text-gray-700">FeedBack Loop</h2>
-          <p className="mt-6 text-gray-600">Feedback loop is a social forum for music makers. Artists can submit their songs and received detailed constructive feedback from peers though a detailed form. Users can save favorites and make recomendations with Spotify integration. Designed with an intentionally minimal and art forward aestetic.</p>
+          <p className="mt-6 text-gray-600">Feedback loop is a social forum for music makers. Artists can submit their songs and received detailed constructive feedback from peers through a detailed form. Users can save favorites and make recomendations with Spotify integration. Designed with a minimal, art forward aestetic.</p>
           <br/>
           <h3>STACK: Ruby on Rails, React.JS, Omniauth, CSS</h3>
           <br/>
