@@ -13,7 +13,8 @@ const App: React.FC = () => {
       <div className="app">
         <NavBar />
         <Routes>
-        <Route path="/*" element={<About />} />
+          <Route path="/" element={<About />} />
+          <Route path="*" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/feedback-loop" element={<FeedbackLoop />} />
           <Route path="/react-calculator" element={<ReactCalculator />} />
