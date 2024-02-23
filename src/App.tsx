@@ -17,7 +17,7 @@ const App: React.FC = () => {
           <Route path="/feedback-loop" element={<FeedbackLoop />} />
           <Route path="/react-calculator" element={<ReactCalculator />} />
           <Route path="/zip-code-calculator" element={<ZipCodeCalculator />} />
-          <Route path="*" element={<About />} />
+          <Route path="/*" element={<About />} />
         </Routes>
       </div>
   );
