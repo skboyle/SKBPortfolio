@@ -17,6 +17,7 @@ const NavBar: React.FC<NavbarProps> = () => {
                   {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                   <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/about">About</Link></div>
                   <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/feedback-loop">Feedback Loop</Link></div>
+                  <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/a-film-by">A Film By</Link></div>
                   <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/react-calculator">React Calc</Link></div>
                   <div className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"><Link to="/zip-code-calculator">Zipcode Calc</Link></div>
                 </div>
@@ -31,6 +32,7 @@ const NavBar: React.FC<NavbarProps> = () => {
             {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
             <div className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/about">About</Link></div>
             <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/feedback-loop">Feedback Loop</Link></div>
+            <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/a-film-by">A Film By</Link></div>
             <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/react-calculator">React Calc</Link></div>
             <div className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"><Link to="/zip-code-calculator">Zipcode Calc</Link></div>
           </div>
