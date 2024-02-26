@@ -9,7 +9,7 @@ const About: React.FC = () => {
     <div className="lg:w-1/2 lg:pr-8">
       <div className="mt-4">
         <h2 className="text-3xl font-medium text-gray-700">Steven Boyle</h2>
-        <p className="mt-6 text-gray-600">I'm a software engineer with 6 years of professional experience. When I'm not building websites I like to cook, make music, and ride my bike!</p>
+        <p className="mt-6 text-gray-600">I'm a software engineer with 6 years of professional experience. When I'm not building websites, I like to cook, make music, and ride my bike!</p>
         <br/>
         {/* <h3>LANGUAGES:</h3>
         <p className="mt-2 text-gray-600"> 
