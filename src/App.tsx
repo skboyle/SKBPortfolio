@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import FeedbackLoop from './components/FeedbackLoop';
 import AFilmBy from './components/AFilmBy';
+import RRRSS from './components/RRRSS';
 import ReactCalculator from './components/ReactCalculator';
 import ZipCodeCalculator from './components/ZipCodeCalculator';
 import './styles/styles.css';
@@ -17,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/feedback-loop" element={<FeedbackLoop />} />
           <Route path="/a-film-by" element={<AFilmBy />} />
+          <Route path="/rrrss" element={<RRRSS />} />
           <Route path="/react-calculator" element={<ReactCalculator />} />
           <Route path="/zip-code-calculator" element={<ZipCodeCalculator />} />
           <Route path="/*" element={<About />} />

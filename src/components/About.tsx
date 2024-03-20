@@ -11,13 +11,6 @@ const About: React.FC = () => {
         <h2 className="text-3xl font-medium text-gray-700">Steven Boyle</h2>
         <p className="mt-6 text-gray-600">I'm a software engineer with 6 years of professional experience. When I'm not building websites, I like to cook, make music, and ride my bike!</p>
         <br/>
-        {/* <h3>LANGUAGES:</h3>
-        <p className="mt-2 text-gray-600"> 
-        Ruby, Python, Java, Kotlin, Javascript, Typescript, HTML, CSS, SQL, Bash, Shell
-        </p>
-        <h3>FRAMEWORKS:</h3>
-        <p className="mt-2 text-gray-600"> 
-        Agile, Airbrake, Amazon Web Services (AWS), Android, Bootstrap, Bundler, Capistrano, Carrierwave, Cloudwatch, Cucumber, Databricks, Datadog, Devise, Django, Docker, DotENV, EC2, ElastiCache, Express, Figma, FactoryBot, Git, GitHub, Google Cloud Platform (GCP), Google Cloud Storage, IOS, Jasmine, JWT, JQuery, Kubernetes, Minitest, MySQL, Node.js, Okta, Omniauth, Postgres, Pry, Puma, React, React Native.js, React Testing Library, Redis, Redux, REST API, Route 53, S3, SASS, SCRUM, Sinatra, Snowflake, Spring, Spring Boot, Tailwind.css, Terraform, Test Driven Development, Web</p> */}
         <h3>PORTFOLIO BUILT WITH:</h3>
         <p className="mt-2 text-gray-600"> 
           Ruby on Rails, React.js, Tailwind.css</p>
