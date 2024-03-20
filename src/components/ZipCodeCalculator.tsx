@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa'; // Import the Font Awesome icons
 import '../styles/styles.css';
+import Zipcal1 from '../images/zipcal1.jpg';
+import Zipcal2 from '../images/zipcal2.jpg';
+
 
 const ZipCodeCalculator: React.FC = () => {
   return (
@@ -16,8 +19,8 @@ const ZipCodeCalculator: React.FC = () => {
       </div>
     </div>
     <div className="-order-1 mb-8 lg:order-1 lg:mb-0 lg:w-1/2">
-      <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://github.com/skboyle/zip-code-calc/raw/master/zipcal1.png?raw=true" alt="" />
-      <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://github.com/skboyle/zip-code-calc/raw/master/zipcal2.png?raw=true" alt="" />
+      <img className="border-blue-600/10 rounded-3xl border shadow-md" src={Zipcal1} alt="" />
+      <img className="border-blue-600/10 rounded-3xl border shadow-md" src={Zipcal2} alt="" />
 
     </div>
   </section>

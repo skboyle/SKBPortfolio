@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import '../styles/styles.css';
+import Feedback1 from '../images/feedback_1.jpg';
+import Feedback2 from '../images/feedback_2.jpg';
+
 
 const FeedbackLoop: React.FC = () => {
   return (
@@ -16,8 +19,8 @@ const FeedbackLoop: React.FC = () => {
         </div>
       </div>
       <div className="-order-1 mb-8 lg:order-1 lg:mb-0 lg:w-1/2">
-        <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://camo.githubusercontent.com/4849520939ff768a63dd15aa51482e39d005599f5e94057b812a68405075d4bd/68747470733a2f2f692e696d6775722e636f6d2f33636e306b62422e6a7067" alt="" />
-        <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://camo.githubusercontent.com/ce8e5975cd347ea178321b502112e77e46f6576589a5532dd1fb1b2756abed29/68747470733a2f2f692e696d6775722e636f6d2f736f5a7934764c2e706e67" alt="" />
+        <img className="border-blue-600/10 rounded-3xl border shadow-md" src={Feedback1} alt="" />
+        <img className="border-blue-600/10 rounded-3xl border shadow-md" src={Feedback2} alt="" />
       </div>
     </section>
   );

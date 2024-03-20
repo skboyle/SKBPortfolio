@@ -1,6 +1,7 @@
 import React from 'react';
 import LinkBar from './LinkBar';
 import '../styles/styles.css';
+import LaptopArt from '../images/laptop_art.jpg';
 
 const About: React.FC = () => {
   return (
@@ -20,7 +21,7 @@ const About: React.FC = () => {
       </div>
     </div>
     <div className="-order-1 mb-8 lg:order-1 lg:mb-0 lg:w-1/2">
-      <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://i.imgur.com/BnV5nqG.jpgg" alt="" />
+      <img className="border-blue-600/10 rounded-3xl border shadow-md" src={LaptopArt} alt="" />
     </div>
   </section>
   );

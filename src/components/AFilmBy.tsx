@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import '../styles/styles.css';
+import Film1 from '../images/afilm1.jpg';
+import Film2 from '../images/afilm2.jpg';
 
 const AFilmBy: React.FC = () => {
   return (
@@ -18,8 +20,8 @@ const AFilmBy: React.FC = () => {
         </div>
       </div>
       <div className="-order-1 mb-8 lg:order-1 lg:mb-0 lg:w-1/2">
-        <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://i.imgur.com/qbhPFxQ.png" alt="" />
-        <img className="border-blue-600/10 rounded-3xl border shadow-md" src="https://i.imgur.com/Tq6dcao.png" alt="" />
+        <img className="border-blue-600/10 rounded-3xl border shadow-md" src={Film1} alt="" />
+        <img className="border-blue-600/10 rounded-3xl border shadow-md" src={Film2} alt="" />
       </div>
     </section>
   );
