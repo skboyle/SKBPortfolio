@@ -1,6 +1,8 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaFileAlt, FaEnvelope } from 'react-icons/fa'; // Import the Font Awesome icons
+import { FaLinkedin, FaGithub, FaFileAlt, FaEnvelope } from 'react-icons/fa';
+// import resume from '../images/Steven_Boyle_Resume_2024.pdf';
 
+const resume = require('../images/Steven_Boyle_Resume_2024.pdf');
 
 const LinkBar: React.FC = () => {
   return (
@@ -12,7 +14,7 @@ const LinkBar: React.FC = () => {
         <a href="https://github.com/skboyle" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://github.com/skboyle/SKBPortfolio/blob/main/SKBR2024.pdf" download="Steven_Boyle_Resume_2024.pdf">
+        <a href={resume} download="Steven_Boyle_Resume_2024.pdf">
           <FaFileAlt />
         </a>
         <a href="mailto:skboylework@gmail.com">
