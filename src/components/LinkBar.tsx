@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaFileAlt, FaEnvelope } from 'react-icons/fa';
-// import resume from '../images/Steven_Boyle_Resume_2024.pdf';
 
 const resume = require('../images/Steven_Boyle_Resume_2024.pdf');
 
