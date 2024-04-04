@@ -10,7 +10,7 @@ const About: React.FC = () => {
     <div className="lg:w-1/2 lg:pr-8">
       <div className="mt-4">
         <h2 className="text-3xl font-medium text-gray-700">Steven Boyle</h2>
-        <p className="mt-6 text-gray-600">I'm a software engineer with 6 years of professional experience. When I'm not building websites, I like to cook, make music, and ride my bike!</p>
+        <p className="mt-6 text-gray-600">I'm a Full-Stack Software Engineer who specializes in Ruby on Rails and JavaScript with React. I have expertise in Agile Development, Test-Driven Development, Object-Oriented Programming, End-to-End Testing, Monitoring, Hosting, Cloud Services, REST APIs, E-Commerce, Payment Integration, Authorization, Secure Protocols, Microservice Architecture, Relational Databases, CRMs, and LMSs.</p>
         {/* <a href="https://www.upwork.com/freelancers/~01c5a4686da5532994" className="mt-2 text-blue-600" rel="noopener noreferrer">5 Stars on UpWork!</a> */}
         <br/>
         <h3>PORTFOLIO BUILT WITH:</h3>
