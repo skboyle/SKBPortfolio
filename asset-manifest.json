@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SKBPortfolio/static/css/main.9cf7cb28.css",
-    "main.js": "/SKBPortfolio/static/js/main.84e1a91e.js",
+    "main.js": "/SKBPortfolio/static/js/main.6c9b7bf8.js",
     "static/js/787.863a1a06.chunk.js": "/SKBPortfolio/static/js/787.863a1a06.chunk.js",
     "static/media/laptop_art.jpg": "/SKBPortfolio/static/media/laptop_art.19d0b1fa675b9fb583a0.jpg",
     "static/media/afilm1.jpg": "/SKBPortfolio/static/media/afilm1.d50a144e2a72b067ae51.jpg",
@@ -16,11 +16,11 @@
     "static/media/reactcalc.jpg": "/SKBPortfolio/static/media/reactcalc.95313b8cf404bcbdafae.jpg",
     "index.html": "/SKBPortfolio/index.html",
     "main.9cf7cb28.css.map": "/SKBPortfolio/static/css/main.9cf7cb28.css.map",
-    "main.84e1a91e.js.map": "/SKBPortfolio/static/js/main.84e1a91e.js.map",
+    "main.6c9b7bf8.js.map": "/SKBPortfolio/static/js/main.6c9b7bf8.js.map",
     "787.863a1a06.chunk.js.map": "/SKBPortfolio/static/js/787.863a1a06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cf7cb28.css",
-    "static/js/main.84e1a91e.js"
+    "static/js/main.6c9b7bf8.js"
   ]
 }
