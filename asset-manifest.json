@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SKBPortfolio/static/css/main.9cf7cb28.css",
-    "main.js": "/SKBPortfolio/static/js/main.3595ec56.js",
+    "main.js": "/SKBPortfolio/static/js/main.1df156a1.js",
     "static/js/787.863a1a06.chunk.js": "/SKBPortfolio/static/js/787.863a1a06.chunk.js",
     "static/media/laptop_art.jpg": "/SKBPortfolio/static/media/laptop_art.19d0b1fa675b9fb583a0.jpg",
     "static/media/afilm1.jpg": "/SKBPortfolio/static/media/afilm1.d50a144e2a72b067ae51.jpg",
@@ -12,15 +12,15 @@
     "static/media/feedback_1.jpg": "/SKBPortfolio/static/media/feedback_1.c19205ad043ea3c56119.jpg",
     "static/media/zipcal1.jpg": "/SKBPortfolio/static/media/zipcal1.c2cf6a2b2b6b8085a638.jpg",
     "static/media/afilm2.jpg": "/SKBPortfolio/static/media/afilm2.18086b2e52d7c996c8aa.jpg",
-    "static/media/Steven_Boyle_Resume_2024.pdf": "/SKBPortfolio/static/media/Steven_Boyle_Resume_2024.9a1a8c4f835ea84b6999.pdf",
     "static/media/reactcalc.jpg": "/SKBPortfolio/static/media/reactcalc.95313b8cf404bcbdafae.jpg",
+    "static/media/Steven_Boyle_Resume_2024.pdf": "/SKBPortfolio/static/media/Steven_Boyle_Resume_2024.06951e1e6ad2bdf49987.pdf",
     "index.html": "/SKBPortfolio/index.html",
     "main.9cf7cb28.css.map": "/SKBPortfolio/static/css/main.9cf7cb28.css.map",
-    "main.3595ec56.js.map": "/SKBPortfolio/static/js/main.3595ec56.js.map",
+    "main.1df156a1.js.map": "/SKBPortfolio/static/js/main.1df156a1.js.map",
     "787.863a1a06.chunk.js.map": "/SKBPortfolio/static/js/787.863a1a06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cf7cb28.css",
-    "static/js/main.3595ec56.js"
+    "static/js/main.1df156a1.js"
   ]
 }
